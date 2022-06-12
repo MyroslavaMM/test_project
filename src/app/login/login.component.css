@@ -1,0 +1,28 @@
+.wrrapper {
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+form {
+    font-family: serif;
+    margin-top: 15px;
+    border: 1px solid rgb(201, 173, 173);
+    text-align: center;
+    max-width: 400px;
+    border-radius: 5px;
+}
+h2 { 
+    background-color: rgb(233, 223, 223);
+    margin: 0;
+    border-bottom: 1px solid rgb(218, 209, 209);
+}
+.input {
+    margin: 30px;
+    
+}
+
+input[type="submit"] {
+   margin-bottom: 10px;
+} 

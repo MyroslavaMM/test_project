@@ -1,0 +1,15 @@
+<h2>Admin</h2>
+<app-logout></app-logout>
+<nav class="navbar navbar-default">
+    <a class="nav-link"  routerLink="/navigation_menu">Menu</a>
+</nav>
+<div>
+    <app-dashboard></app-dashboard>
+</div>
+<div class="details">
+    <h4>Information</h4>
+    <p>First name: {{first_name}}</p> 
+    <p>Last name: {{last_name}}</p>
+    <p>Role: {{role}}</p>
+</div>
+<router-outlet></router-outlet>

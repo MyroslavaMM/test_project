@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    background-color: gainsboro;
+    border-radius: 2px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+a:active{
+    color: white;
+    background-color: black;
+}
